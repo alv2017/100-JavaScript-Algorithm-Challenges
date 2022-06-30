@@ -17,17 +17,17 @@ add(param1, param2) = 3.
 **Input/Output**
 
 - **[time limit] 4000ms (js)**
-- **[input] integer param1**
+- **[input] number param1**
 
 Guaranteed constraints:
 
 -100 ≤ param1 ≤ 1000.
 
-**[input] integer param2**
+**[input] number param2**
 
 Guaranteed constraints:
 -100 ≤ param2 ≤ 1000.
 
-**[output] integer**
+**[output] number**
 
 The sum of the two inputs.
