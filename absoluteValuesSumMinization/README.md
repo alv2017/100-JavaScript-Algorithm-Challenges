@@ -15,10 +15,10 @@ For a = [2, 4, 7, 6], the output should be
 absoluteValuesSumMinimization(a) = 4.
 
 For a = [2, 4, 7, 6, 6], the output should be
-absoluteValuesSumMinimization(a) = 7.
+absoluteValuesSumMinimization(a) = 6.
 
 For a = [2, 4, 7, 6, 6, 8], the output should be
-absoluteValuesSumMinimization(a) = 7.
+absoluteValuesSumMinimization(a) = 6.
 
 **Hints**
 -   Math.floor()
@@ -37,3 +37,13 @@ A non-empty array of integers, sorted in ascending order.
 -106 ≤ a[i] ≤ 106.
 
 - **[output] integer**
+
+## Solution Idea
+
+Suppose we have an array a of real numbers, and
+
+    S = abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.length - 1] - x)
+
+The sum S is minimal if x is equal to the median element of the array **a**. 
+
+
