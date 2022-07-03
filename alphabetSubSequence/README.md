@@ -5,7 +5,7 @@ Check whether the given string is a subsequence of the plaintext alphabet.
 
 **Example**
 
-- For s = "effg" or s = "cdce", the output should be
+- For s = "effg", or s = "cdce", or s="cda" the output should be
 alphabetSubsequence(s) = false
 
 - For s = "ace" or s = "bxz", the output should be
